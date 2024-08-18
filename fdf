@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="dark-mode">
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">Carlos Mafla</div>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home">Home</a></li>
+                    <li class="nav-item"><a href="#projects">Projects</a></li>
+                    <li class="nav-item"><a href="#blog">Blog</a></li>
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="theme-toggle">
+                    <label>
+                        <input type="checkbox" id="theme-switch">
+                        <span>Light</span><span>Dark</span>
+                    </label>
+                </div>
+                <button class="contact-btn">Contact me</button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>FULL-STACK WEB DEVELOPER</h1>
+                <h2>Carlos Mafla</h2>
+                <p>I’m a full-stack web developer and I work remotely from South America.</p>
+                <button class="cv-btn">CV</button>
+            </div>
+            <div class="hero-image">
+                <img src="path/to/your/image.png" alt="Carlos Mafla">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
